@@ -1,0 +1,64 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background: rgb(205 209 206 / 40%); /* Black w/ opacity */
+  backdrop-filter: blur(1px);
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal Content */
+.right-sidebar {
+  background: rgb(242, 242, 239);
+  opacity: 1;
+  z-index: 6;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  padding: 34px;
+  width: 40%;
+  height:100%;
+  overflow: auto;
+}
+.transparent-section{
+  background: transparent;
+  opacity: 1;
+  z-index: 6;
+  width:60% ;
+  height:100%;
+  overflow: auto;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 992px){
+  .right-sidebar {
+    width: 100%;
+  }
+  .transparent-section{
+    width: 0%;
+  }
+}

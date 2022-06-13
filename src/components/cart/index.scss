@@ -1,0 +1,159 @@
+.cart-title {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.cart-item {
+    margin-bottom: 0.8rem;
+    background: rgb(255, 255, 255);
+    padding: 0.75rem;
+    color: rgb(30, 45, 43);
+}
+
+.item-title {
+    font-family: "FF Bau Regular", sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 0.9375rem;
+}
+
+.cart-info {
+    width: 70%;
+}
+
+.cart-img-section {
+    width: 30%;
+}
+
+.cart-close{
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 9999px;
+    border: 1px solid rgb(198, 204, 199);
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.cart-close > svg{
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1em;
+    color: currentcolor;
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    font-size: 0.75rem;
+}
+
+.cart-total{
+    display: flex;
+    font-family: "FF Bau Regular", sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1.3125rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+}
+
+.cart-total-amount{
+    margin-left: auto;
+}
+
+.item-amount {
+
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+}
+
+.item-img {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-img > img {
+    height: 2rem;
+}
+
+.currency-select {
+    margin-left: auto;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    padding: 2px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+
+.counter>button {
+    padding: 2px;
+    background-color: #fff;
+    border: none;
+    width: 2rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.item-remove {
+    margin-left: auto;
+    text-align: right;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+}
+.currency-select {
+    display: flex;
+    align-items: center;
+}
+
+.currency-select > select {
+    width: 100%;
+    outline: 0px;
+    position: relative;
+    appearance: none;
+    transition: all 0.2s ease 0s;
+    padding: 2px 1.5rem 1px;
+    line-height: normal;
+    color: currentcolor;
+    height: 38px;
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    font-size: 0.81rem;
+}
+
+.currency-select > .select-icon {
+    position: relative;
+    right: 34px;
+    top: 2px;
+    font-size: 1.25rem;
+}
+
+.cart-empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.shopping-link{
+    text-decoration: underline;
+    color: #00bcd4;
+    cursor: pointer;
+}

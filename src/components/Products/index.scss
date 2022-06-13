@@ -1,0 +1,73 @@
+
+ .product-section {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    background-color: rgb(224, 226, 224);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 20px;
+    padding-bottom: 8rem;
+    font-size: 30px;
+    text-align: center;
+    height: auto;
+  }
+
+  .product-image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+  .product-image > img{
+        max-height: 70%;
+        margin: auto;
+       width: auto;
+    }
+
+    div img:hover{
+        cursor: pointer;
+    }
+
+    .product-title{
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }    
+    
+    .product-price {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+.add-to-cart-btn {
+    outline: none;
+    border: 0px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-family: "FF Bau Regular", sans-serif;
+    background: rgb(75, 85, 72);
+    color: rgb(252, 252, 249);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    color: #fff;    
+    background: #000;
+}
+
+// Media Queries
+
+@media (max-width: 768px) { 
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+      }
+ }
