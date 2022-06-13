@@ -70,4 +70,31 @@
         grid-template-columns: auto auto;
         padding: 10px;
       }
+
+        .product-image { 
+            width: 100px;
+            height: 100px;
+        }
+
+        .product-title { 
+            font-size: 12px; 
+        }
+
+        .product-price {
+            font-size: 12px;
+        }
+
+        .add-to-cart-btn {
+            padding: 10px 20px;
+            font-size: 8px;
+        }
+
+        .product-section {
+            padding-top: 3rem;
+        }
+        .grid-item {
+            padding: 20px;
+            padding-bottom: 4rem;
+        }
  }
+ 

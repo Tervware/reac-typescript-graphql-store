@@ -35,3 +35,35 @@
   font-size: 1rem;
   font-weight: 300;
 }
+
+// Mobile view
+@media (max-width: 768px) { 
+    
+  .filter{
+    margin-left: 0px;
+  }
+  .title-section { 
+    align-items: flex-start;
+    padding: 40px;
+    margin-bottom: 3;
+  }
+
+  .filter > select {
+    padding: 0.5rem 1rem;
+    position: relative;
+    left: 0px;
+    width: 150px;
+  }
+  
+  .title > h1 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  
+  .title > p {
+    font-size: 0.5rem;
+    font-weight: 200;
+  }
+  
+}
