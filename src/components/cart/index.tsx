@@ -15,7 +15,7 @@ function Cart() {
         }
       }`;
       
-    const { data, loading, error } = useQuery(PRODUCTS_QUERY);
+    const { data } = useQuery(PRODUCTS_QUERY);
        
 
     const cartItems: CartItemType[] = useSelector((state: any) => state.cart.itemsList);
